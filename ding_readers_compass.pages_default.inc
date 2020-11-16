@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * ding_readers_compass.pages_default.inc
@@ -84,25 +85,25 @@ function ding_readers_compass_default_page_manager_pages() {
   $display->uuid = '47fafe95-aa51-4f84-9750-c8cf7bf9c46d';
   $display->content = array();
   $display->panels = array();
-    $pane = new stdClass();
-    $pane->pid = 'new-3176bc6a-32af-43e7-8cfa-0d990cb045bc';
-    $pane->panel = 'primary';
-    $pane->type = 'readers_compass_inspiration';
-    $pane->subtype = 'readers_compass_inspiration';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array();
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $pane->uuid = '3176bc6a-32af-43e7-8cfa-0d990cb045bc';
-    $display->content['new-3176bc6a-32af-43e7-8cfa-0d990cb045bc'] = $pane;
-    $display->panels['primary'][0] = 'new-3176bc6a-32af-43e7-8cfa-0d990cb045bc';
+  $pane = new stdClass();
+  $pane->pid = 'new-3176bc6a-32af-43e7-8cfa-0d990cb045bc';
+  $pane->panel = 'primary';
+  $pane->type = 'readers_compass_inspiration';
+  $pane->subtype = 'readers_compass_inspiration';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array();
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 0;
+  $pane->locks = array();
+  $pane->uuid = '3176bc6a-32af-43e7-8cfa-0d990cb045bc';
+  $display->content['new-3176bc6a-32af-43e7-8cfa-0d990cb045bc'] = $pane;
+  $display->panels['primary'][0] = 'new-3176bc6a-32af-43e7-8cfa-0d990cb045bc';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-3176bc6a-32af-43e7-8cfa-0d990cb045bc';
   $handler->conf['display'] = $display;
