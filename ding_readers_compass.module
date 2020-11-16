@@ -1,9 +1,11 @@
-<?php //
+<?php
 
 /**
  * @file
  * Enables ding_readers_compass.
  */
+
+include_once 'ding_readers_compass.features.inc';
 
 /**
  * Implements hook_ctools_plugin_directory().
