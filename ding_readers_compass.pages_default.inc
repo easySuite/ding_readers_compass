@@ -24,6 +24,7 @@ function ding_readers_compass_default_page_manager_pages() {
     'type' => 'normal',
     'title' => 'Læsekompas',
     'name' => 'main-menu',
+    'hidden' => TRUE,
     'weight' => '10',
     'parent' => array(
       'type' => 'none',
