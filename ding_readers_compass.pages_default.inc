@@ -21,7 +21,7 @@ function ding_readers_compass_default_page_manager_pages() {
     'settings' => NULL,
   );
   $page->menu = array(
-    'type' => 'normal',
+    'type' => 'none',
     'title' => 'Læsekompas',
     'name' => 'main-menu',
     'hidden' => TRUE,
